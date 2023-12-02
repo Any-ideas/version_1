@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetic Logbook</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="logbook.html">Logbook</a></li>
+                    <li><a href="trends.html">Trends</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+<!--                    <li><a href="aqua.html">Aquarium</a></li>-->
+                    <li><a href="chat.html">Chat with AI</a></li>
+                    <li><a href="aqua.html">Aquarium</a></li>
+
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="login.html">Log In</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="logbook-entries">
+            <h2>Recent Entries</h2>
+            <!-- Entries could be dynamically generated here -->
+            <div class="entry normal">
+                <span class="date">2023-11-29</span>
+                <span class="time">08:00 AM</span>
+                <span class="level">5.6 mmol/L</span>
+                <span class="meal">Breakfast</span>
+                <span class="notes">Oatmeal and fruit</span>
+            </div>
+            <!-- Repeat for other entries -->
+        </section>
+
+        <aside id="summary">
+            <h2>Today's Summary</h2>
+            <div class="summary-item">
+                <span class="label">Average Level:</span>
+                <span class="value">6.2 mmol/L</span>
+            </div>
+            <!-- Repeat for other summary items -->
+        </aside>
+    </main>
+
+    <div class="add-activity-button-container">
+        <button onclick="location.href='add-activity.html'">Add Activity</button>
+    </div>
+
+    <footer>
+        <p>Team Any Ideas, Imperial College London,</p>
+    </footer>
+</body>
+</html>

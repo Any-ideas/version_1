@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetic Logbook - AI Chat</title>
+    <link rel="stylesheet" type="text/css" href="chatstyles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="logbook.html">Logbook</a></li>
+                    <li><a href="trends.html">Trends</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="aqua.html">Aquarium</a></li>
+                    <li><a href="chat.html">Chat with AI</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="login.html">Log In</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="chat-container">
+        <section class="chat-window">
+            <div class="chat-messages">
+                <div class="chat-message patient">
+                    <p>Hi, I need some advice on my current blood sugar levels.</p>
+                </div>
+                <div class="chat-message ai">
+                    <p>Of course! Please provide me with your most recent readings.</p>
+                </div>
+                <!-- More messages can be added here -->
+            </div>
+            <div class="chat-input-box">
+                <input type="text" placeholder="Type your message here..." id="chatInput">
+                <button type="button" onclick="sendMessage()">Send</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+        <!-- ... -->
+    </footer>
+
+    <script>
+        // Placeholder function for sending messages
+        function sendMessage() {
+            var input = document.getElementById('chatInput');
+            // Process the input.value and update the chat window accordingly
+            input.value = ''; // Clear the input field after sending a message
+        }
+    </script>
+</body>
+</html>

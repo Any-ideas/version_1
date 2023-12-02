@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetic Logbook - Trends</title>
+    <link rel="stylesheet" type="text/css" href="trendstyles.css">
+    <!-- Include necessary scripts for charting libraries -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="logbook.html">Logbook</a></li>
+                    <li><a href="trends.html">Trends</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="aqua.html">Aquarium</a></li>
+                    <li><a href="chat.html">Chat with AI</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="login.html">Log In</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    
+    <main>
+        <section class="trends-section">
+            <h1>Blood Sugar Trends</h1>
+
+            <div class="date-entry">
+                <label for="dateInput">Enter Date: </label>
+                <input type="date" id="dateInput" name="dateInput">
+            </div>
+            <div class="filter-options">
+                <label><input type="checkbox" id="breakfastReadings" checked> Breakfast Readings</label>
+                <label><input type="checkbox" id="lunchReadings"> Lunch Readings</label>
+                <label><input type="checkbox" id="dinnerReadings"> Dinner Readings</label>
+            </div>
+            <div id="chartContainer" class="chart-container">
+                <!-- Chart will be rendered here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+</body>
+</html>

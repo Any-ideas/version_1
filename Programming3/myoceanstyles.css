@@ -1,0 +1,10 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Spacing between images */
+}
+
+.image-container img {
+    width: 50%; /* Adjust as needed */
+    height: auto;
+}
